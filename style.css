@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    height: 2500px;
+    width: 100%;
+    background: linear-gradient(rgb(152, 152, 255), rgb(69, 33, 83));
+}
+
+nav .container-fluid a img {
+    width: 60px;
+    height: 60px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cards {
+    display: flex;
+    padding-top: 50px;
+}
+
+.cards .card2 {
+    height: 220px;
+    order: 1;
+}
+
+.cards .card3 {
+    height: 220px;
+    order: 3;
+}
+
+.cards .card1 {
+    order: 2;
+}
+
+.collaps {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review .mb-3 {
+    width: 600px;
+}
+
+.review .mb-3 input {
+    height: 100px;
+    background: linear-gradient(rgb(152, 152, 255), rgb(69, 33, 83));
+    border: 1px solid black;
+}
+
+footer {
+    background: black;
+    height: 185px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+footer h4 {
+    color: white;
+    font-size: 16px;
+    width: 300px;
+}
